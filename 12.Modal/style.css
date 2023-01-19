@@ -2,6 +2,7 @@
 
 html, body {
   height: 100%;
+  
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
 
 .modal {
@@ -19,6 +21,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+ 
 }
 
 .icon {
@@ -56,6 +59,10 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;;
 }
 
 button.cancel {
@@ -63,3 +70,25 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+div.text {
+  display: flex;
+  margin-top: 2rem;
+  
+  margin-left: 1rem;
+  margin-right: 1rem;;
+
+}
+
+div.icon {
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+div.header {
+  display: flex;
+  justify-content: center;
+  align-self:flex-start;
+}
+
