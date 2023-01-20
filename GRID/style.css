@@ -1,0 +1,50 @@
+* {
+  border: 2px solid black;
+  text-align: center;
+  font-size: 24px;
+ 
+}
+
+section.container {
+  background-color: bisque;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-gap: 1rem;
+  
+
+}
+
+section.container > div.header {
+  background-color:crimson;
+  grid-column: 1 / 13;
+  
+
+}
+
+section.container > div.sidebar {
+  background-color: aqua;
+  grid-column: 1 / 5;
+  grid-row: 2 / 11;
+  
+
+}
+
+section.container > div.nav {
+  background-color: chartreuse;
+  grid-column: 5 / 13;
+  grid-row: 2 / 4;
+}
+
+section.container > div.article {
+  background-color: blueviolet;
+  grid-column: 5 / 13;
+  grid-row: 4 / 11;
+}
+
+section.container > div.footer {
+  background-color:lightslategray;
+  grid-column: 1 / 13;
+  grid-row: 11 / 13;
+}

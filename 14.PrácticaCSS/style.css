@@ -1,0 +1,18 @@
+.container {
+    background-color: #21392a;
+    height: 100vh;
+    display: grid;
+    
+
+}
+
+.header {
+    background-color: #eac39c;
+    height: 100px;
+  
+}
+
+.sidevar {
+    background-color: #cc8d66;
+    height: 100px;
+}
